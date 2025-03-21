@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>汉字学习卡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#FF6B6B',
+secondary: '#4ECDC4'
+},
+borderRadius: {
+'none': '0px',
+'sm': '2px',
+DEFAULT: '4px',
+'md': '8px',
+'lg': '12px',
+'xl': '16px',
+'2xl': '20px',
+'3xl': '24px',
+'full': '9999px',
+'button': '4px'
+}
+}
+}
+}
+</script>
+<style>
+body {
+font-family: 'Noto Sans SC', sans-serif;
+min-height: 1024px;
+background-color: #F8F9FA;
+}
+.word-card {
+transition: all 0.3s ease;
+}
+.word-card:hover {
+transform: translateY(-5px);
+}
+.word-card:active {
+transform: scale(0.98);
+}
+</style>
+</head>
+<body>
+<div class="container mx-auto px-4 py-8">
+<h1 class="text-4xl font-bold text-center mb-12 text-gray-800">汉字学习卡</h1>
+<div class="grid grid-cols-1 gap-12 max-w-3xl mx-auto">
+<!-- 傍晚 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/e3d633935709ac2344a26122cb19b7b1.jpg"
+class="w-full h-full object-cover" alt="傍晚">
+</div>
+<div class="p-8">
+<div class="text-5xl font-bold mb-3 text-gray-800">傍晚</div>
+<div class="text-2xl text-gray-600 mb-3">bàngwǎn</div>
+<div class="text-xl text-blue-600 mb-3">evening; dusk</div>
+<div class="text-base text-gray-500">傍晚的天空很美丽。</div>
+</div>
+</div>
+<!-- 讲 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/2fcf00f8cd66f2c8c2e0de520bd46c62.jpg"
+class="w-full h-full object-cover" alt="讲">
+</div>
+<div class="p-8">
+<div class="text-5xl font-bold mb-3 text-gray-800">讲</div>
+<div class="text-2xl text-gray-600 mb-3">jiǎng</div>
+<div class="text-xl text-blue-600 mb-3">to speak; to tell</div>
+<div class="text-base text-gray-500">老师在讲故事。</div>
+</div>
+</div>
+<!-- 高兴 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/29e00dd83ee202a2d18a8e4e29e421b7.jpg"
+class="w-full h-full object-cover" alt="高兴">
+</div>
+<div class="p-8">
+<div class="text-5xl font-bold mb-3 text-gray-800">高兴</div>
+<div class="text-2xl text-gray-600 mb-3">gāoxìng</div>
+<div class="text-xl text-blue-600 mb-3">happy; glad</div>
+<div class="text-base text-gray-500">小朋友们玩得很高兴。</div>
+</div>
+</div>
+<!-- 从此 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/5ac18ba4c5fd09fc335a48ae37e03ae2.jpg"
+class="w-full h-full object-cover" alt="从此">
+</div>
+<div class="p-8">
+<div class="text-5xl font-bold mb-3 text-gray-800">从此</div>
+<div class="text-2xl text-gray-600 mb-3">cóngcǐ</div>
+<div class="text-xl text-blue-600 mb-3">from now on; since then</div>
+<div class="text-base text-gray-500">从此他们成为了好朋友。</div>
+</div>
+</div>
+<!-- 遍 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/534fdabbdd3986a4c1f4c9eb0192953c.jpg"
+class="w-full h-full object-cover" alt="遍">
+</div>
+<div class="p-8">
+<div class="text-5xl font-bold mb-3 text-gray-800">遍</div>
+<div class="text-2xl text-gray-600 mb-3">biàn</div>
+<div class="text-xl text-blue-600 mb-3">all over; everywhere; time</div>
+<div class="text-base text-gray-500">这本书我读了一遍。</div>
+</div>
+</div>
+<!-- 松鼠 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/1883f0b815d34fb9491fa409a3377d24.jpg"
+class="w-full h-full object-cover" alt="松鼠">
+</div>
+<div class="p-8">
+<div class="text-5xl font-bold mb-3 text-gray-800">松鼠</div>
+<div class="text-2xl text-gray-600 mb-3">sōngshǔ</div>
+<div class="text-xl text-blue-600 mb-3">squirrel</div>
+<div class="text-base text-gray-500">松鼠在树上采集松果。</div>
+</div>
+</div>
+<!-- 而 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/28cf195cdb4b8d8c55dc37594626b26b.jpg"
+class="w-full h-full object-cover" alt="而">
+</div>
+<div class="p-8">
+<div class="text-5xl font-bold mb-3 text-gray-800">而</div>
+<div class="text-2xl text-gray-600 mb-3">ér</div>
+<div class="text-xl text-blue-600 mb-3">and; but; yet</div>
+<div class="text-base text-gray-500">天空蓝蓝的，而云朵白白的。</div>
+</div>
+</div>
+<!-- 神气 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/9084d0c55736d03c455b48e3511c9a33.jpg"
+class="w-full h-full object-cover" alt="神气">
+</div>
+<div class="p-8">
+<div class="text-5xl font-bold mb-3 text-gray-800">神气</div>
+<div class="text-2xl text-gray-600 mb-3">shénqì</div>
+<div class="text-xl text-blue-600 mb-3">proud; impressive</div>
+<div class="text-base text-gray-500">小明考了满分，很神气。</div>
+</div>
+</div>
+<!-- 枯枝 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/3e79624e3c08e966c813c6989b5c3ecc.jpg"
+class="w-full h-full object-cover" alt="枯枝">
+</div>
+<div class="p-8">
+<div class="text-5xl font-bold mb-3 text-gray-800">枯枝</div>
+<div class="text-2xl text-gray-600 mb-3">kūzhī</div>
+<div class="text-xl text-blue-600 mb-3">dead branch; withered twig</div>
+<div class="text-base text-gray-500">冬天的树上只剩下枯枝。</div>
+</div>
+</div>
+<!-- 材料 -->
+<div class="word-card bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer">
+<div class="h-72 overflow-hidden">
+<img src="https://ai-public.mastergo.com/ai/img_res/d6f6a25cc2bf25906ea942f0a7e0304d.jpg"
+class="w-full h-full object-cover" alt="材料">
+</div>
+<div class="p-8">
+<div class="text-5xl font-bold mb-3 text-gray-800">材料</div>
+<div class="text-2xl text-gray-600 mb-3">cáiliào</div>
+<div class="text-xl text-blue-600 mb-3">material; ingredient</div>
+<div class="text-base text-gray-500">准备好做手工的材料。</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+document.querySelectorAll('.word-card').forEach(card => {
+card.addEventListener('click', function() {
+const word = this.querySelector('.text-5xl').textContent;
+const utterance = new SpeechSynthesisUtterance(word);
+utterance.lang = 'zh-CN';
+window.speechSynthesis.speak(utterance);
+});
+});
+</script>
+</body>
+</html>
